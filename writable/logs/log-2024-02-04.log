@@ -1,0 +1,10 @@
+CRITICAL - 2024-02-04 16:30:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/v_murid.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/v_murid.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/v_murid', [], true)
+ 3 APPPATH\Controllers\Murid.php(11): view('pages/v_murid')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Murid->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Murid))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sentosaabadi_form\\public\\index.php')

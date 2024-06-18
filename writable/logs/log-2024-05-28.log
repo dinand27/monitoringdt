@@ -1,0 +1,30 @@
+CRITICAL - 2024-05-28 15:36:48 --> ParseError: syntax error, unexpected token "echo"
+in APPPATH\Controllers\Staf.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\graciella_musik\\app\\Controllers\\Staf.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Staf')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Staf')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Staf', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\graciella_musik\\public\\index.php')
+CRITICAL - 2024-05-28 15:37:49 --> ParseError: syntax error, unexpected token "echo"
+in APPPATH\Controllers\Staf.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\graciella_musik\\app\\Controllers\\Staf.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Staf')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Staf')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Staf', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\graciella_musik\\public\\index.php')
+CRITICAL - 2024-05-28 15:38:01 --> ParseError: syntax error, unexpected token "return"
+in APPPATH\Controllers\Staf.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\graciella_musik\\app\\Controllers\\Staf.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Staf')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Staf')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Staf', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\graciella_musik\\public\\index.php')

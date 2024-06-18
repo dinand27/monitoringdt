@@ -1,0 +1,48 @@
+CRITICAL - 2024-02-14 13:43:22 --> ErrorException: Undefined variable $judul_tab
+in APPPATH\Views\template_admin\header.php on line 9.
+ 1 APPPATH\Views\template_admin\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul_tab', 'C:\\xampp\\htdocs\\graciella_musik\\app\\Views\\template_admin\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\graciella_musik\\app\\Views\\template_admin\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template_admin/header', [], true)
+ 5 APPPATH\Controllers\Home_template.php(9): view('template_admin/header')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home_template->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home_template))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\graciella_musik\\public\\index.php')
+CRITICAL - 2024-02-14 13:46:26 --> ErrorException: Undefined variable $title
+in APPPATH\Views\template_admin\header.php on line 9.
+ 1 APPPATH\Views\template_admin\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\graciella_musik\\app\\Views\\template_admin\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\graciella_musik\\app\\Views\\template_admin\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template_admin/header', [], true)
+ 5 APPPATH\Controllers\Home_template.php(10): view('template_admin/header')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home_template->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home_template))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\graciella_musik\\public\\index.php')
+CRITICAL - 2024-02-14 13:48:16 --> ErrorException: Undefined variable $title
+in APPPATH\Views\template_admin\header.php on line 9.
+ 1 APPPATH\Views\template_admin\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\graciella_musik\\app\\Views\\template_admin\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\graciella_musik\\app\\Views\\template_admin\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template_admin/header', [], true)
+ 5 APPPATH\Controllers\Murid.php(12): view('template_admin/header')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Murid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Murid))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\graciella_musik\\public\\index.php')
+CRITICAL - 2024-02-14 13:49:01 --> ErrorException: Undefined variable $title
+in APPPATH\Views\template_admin\header.php on line 9.
+ 1 APPPATH\Views\template_admin\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\graciella_musik\\app\\Views\\template_admin\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\graciella_musik\\app\\Views\\template_admin\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template_admin/header', [], true)
+ 5 APPPATH\Controllers\Murid.php(12): view('template_admin/header')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Murid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Murid))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\graciella_musik\\public\\index.php')
